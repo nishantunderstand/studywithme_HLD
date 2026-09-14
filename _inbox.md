@@ -4,6 +4,10 @@
 - [DSA-Pattern](obsidian://open?vault=ObsidianDSA%20PatternBased&file=_inbox)
 
 
+https://paperdraw.dev/
+
+This is gold Standard
+
 ----
 
 Thread
