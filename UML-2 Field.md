@@ -8,4 +8,4 @@
 ![[UML-Entity.png]]
 
 
-![[Person-Entity.png]]
+![[UML-Person-Entity.png]]

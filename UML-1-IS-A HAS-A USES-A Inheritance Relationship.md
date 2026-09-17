@@ -13,4 +13,4 @@
 [🚅 UML Class Diagram Explained with Examples](https://app.notion.com/p/nishant1/UML-Class-Diagram-Explained-with-Examples-3e232284ffa94cb1acf7613ab3c38cef?source=copy_link)
 
 
-![[IS-A-HAS-A-USES-A-Relationship.png]]
+![[UML-IS-A-HAS-A-USES-A-Relationship.png]]

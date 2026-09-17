@@ -11,8 +11,7 @@ This is gold Standard
 ----
 
 Thread
-https://www.instagram.com/reel/DZtDLXmyq09/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==&igsi=MzRlODBiNWFlZA==
-
+https://www.instagram.com/reel/DZtDLXmyq09/
 
 
 S3 vs EFS vs EBS
