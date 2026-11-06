@@ -1,2 +1,0 @@
-
-![[Modern-Web-Application.jpg]]

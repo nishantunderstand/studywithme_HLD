@@ -1,1 +1,0 @@
-![[Outbox-Inbox-Pattern.excalidraw]]
