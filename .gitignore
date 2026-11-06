@@ -1,15 +1,42 @@
-# Removed this Files
-.tmp.driveupload
-/target/
-*.class
-*.log
-*.iml
-.idea/
-*.DS_Store
-*.classpath
-*.project
-*.settings/
+.claude
+node_modules/
+.env
+.code-workspace
+.bat
+.lnk
+.workspace
+.obsidian
+.bat
+
+
+
+# Claude
+.claude/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Workspace / IDE
+.code-workspace
+.workspace/
 .obsidian/
-*.code-workspace
-*.lnk
+
+# Windows files
 *.bat
+*.lnk
+
+# Video files
+*.mkv
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mpeg
+*.mpg
+*.m4v
