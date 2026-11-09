@@ -25,3 +25,7 @@ Replication : Read Data
 Sharding : Split Data
 https://www.instagram.com/satyam.scripts/
 
+
+
+
+https://www.instagram.com/p/DcTj-MhTTu_/

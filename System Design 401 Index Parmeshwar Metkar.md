@@ -1,5 +1,3 @@
-- [[SystemDesign HLD 201 Index]]
-
 
 ---
 https://lnkd.in/p/dvjd5Ur3

@@ -2,12 +2,12 @@ https://www.instagram.com/reels/Dbspnvgv7dG/
 https://www.linkedin.com/in/kritika-mishra-1608/
 
 
-[[System Design 101 HLD By Ikritika Mishra Image.png]]
+![[System Design 101 HLD By Ikritika Mishra Image.png]]
 # High Level Design (HLD) Roadmap 2026
 ## 1. Estimations & Calculations
-* [ ] Estimating Storage
-* [ ] Estimating Users
-* [ ] QPS and Throughput
+* [x] Estimating Storage
+* [x] Estimating Users
+* [x] QPS and Throughput
 ## 2. Databases
 * [ ] Types of Databases
   * [x] RDBMS
