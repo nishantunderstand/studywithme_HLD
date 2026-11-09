@@ -1,0 +1,2 @@
+
+![[CAP Theorem Image.png]]

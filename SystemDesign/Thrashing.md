@@ -1,0 +1,1 @@
+when a process spends more time in paging (swapping pages in and out of memory) than executing instructions.
