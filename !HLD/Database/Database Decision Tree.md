@@ -12,3 +12,21 @@ https://github.com/Sunchit/SystemDesignInterviewPreparationSeries/blob/main/Day8
 ----
 What's your data look like ?
 
+
+
+
+---
+https://www.instagram.com/p/Dd1Z2zchg_9/
+
+
+
+SQL 
+- JOIN
+- Transactio 
+- Citus
+- Cockroach DB
+
+NOSQL 
+- Not JOIN 
+- Sharding 
+- Schema Variable 

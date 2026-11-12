@@ -48,4 +48,10 @@ Many Server
 eg : Product Catalog 
 
 
-![[SQL Vs NOSQL.png]]
+![[SQL Vs NOSQL 1.png]]
+
+
+https://www.instagram.com/p/DXjcHXtk55s/
+
+
+![[SQL Vs NoSQL 2.png]]

@@ -1,17 +1,9 @@
 
-[[NoSQL-Database]]
-
 Types
-Consistent Hashing
+[[Consistent Hashing]]
 
-Circular 
-Why Circlular ?
-Why not parallelogrma ?
-Why clockwise?
-Whyn't anticlockwise
+- [ ] [[Day28_Consistent_Hashing_Resharding]]
+- [ ] [[consistent-hashing-explained.excalidraw]]
 
-
-Virtual Node
-Instead of One Place Multiple Place
 
 

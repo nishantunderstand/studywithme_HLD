@@ -8,13 +8,13 @@ High Level Design (HLD) Roadmap 2026
   * [x] RDBMS
   * [ ] NoSQL
 * [x] Data Replication
-  * [ ] Multi Master
-  * [ ] Master Slave
+  * [x] Multi Master
+  * [x] Master Slave
 * [x] ACID
 * [x] Isolation Levels
-* [ ] Scaling Databases
-* [ ] Sharding & Partitioning
-* [ ] Picking the Right DB
+* [x] Scaling Databases
+* [x] Sharding & Partitioning
+* [x] Picking the Right DB
 * [ ] DynamoDB / Cosmos / Spanner
 * [ ] Cassandra
 ## 3. Caching
@@ -49,7 +49,7 @@ High Level Design (HLD) Roadmap 2026
 * [x] Long Polling
 * [x] Short Polling
 ## 6. Asynchronous Communication
-* [ ] Message Brokers
+* [x] Message Brokers
   * [x] Kafka
   * [x] RabbitMQ
   * [x] SQS

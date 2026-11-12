@@ -35,3 +35,20 @@ Synchronous replication — master waits for replica ACK before confirming succe
 Asynchronous replication — master confirms immediately, replicas update shortly after. Faster but small data loss risk. Used by Instagram and Twitter.  
   
 Main challenge is Replication Lag — replicas falling behind master. Solved with Read Your Own Writes strategy. Another risk is Split Brain — two nodes both believing they are master — handled through consensus mechanisms."
+
+
+---
+
+
+---
+https://www.youtube.com/watch?v=0RE9BuzRX7Q
+
+
+
+Why one database isn't enough
+The master-slave setup
+Splitting reads and writes
+Fault tolerance: what if the master dies
+Synchronous vs asynchronous replication
+Replication lag
+Why replication is worth it (performance, reliability, availability, backup)

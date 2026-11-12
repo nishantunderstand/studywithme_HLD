@@ -26,7 +26,7 @@ For Hot and Popular Data
 - [ ] Cache Stampede  
 - [ ] Thundering Herd Problem
 - [ ] Dogpile Effect 
-- [ ] Cache Penetration
+- [ ] [[Cache Penetration]]
 - [ ] Bloom Filter
 - [ ] [[Caching vs CDN]]
 
