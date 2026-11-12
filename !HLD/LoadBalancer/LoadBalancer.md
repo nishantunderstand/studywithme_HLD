@@ -1,0 +1,8 @@
+- [x] [[LoadBalancer]]
+- [ ] [[Single Point of Failure]]
+- [x] [[LoadBalancer Introduction]]
+- [ ] Health Check
+- [x] [[LoadBalancer Algorithm]]
+- [x] [[LoadBalancer Types]]
+- [ ] [[LoadBalancer L4 vs L7]]
+- [ ] [[Reverse Proxy vs Load Balancer vs API Gateway]]

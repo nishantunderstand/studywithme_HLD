@@ -1,4 +1,0 @@
-- [ ] [[Back of Envelope Calculation]]
-- [ ] [[System Design 201 Index Kritika Mishra Microsoft]]
-- [ ] [[System Design 301 Index Hungry Coder AmanSahni AmericianExpress]]
-- [ ] 

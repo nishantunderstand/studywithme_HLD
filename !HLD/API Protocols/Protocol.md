@@ -1,0 +1,20 @@
+- [ ] [[How to choose Protocol]]
+- [ ] Protocol
+- [ ] HTTP 
+- [ ] Webhook
+- [ ] WebSocket
+- [ ] SSE (Server Sent Event) | HTTP Streaming
+- [ ] Push Notification Service (FCM/ACM)
+- [ ] [[Webhooks vs WebSockets]]
+- [ ] [[HTTP Upgrade to WebSocket]]
+- [ ] [[Polling vs SSE vs WebSockets  vs gRPC vs WebRTC]]
+- [ ] Polling
+- [ ] Short Polling
+- [ ] Long Polling
+- [ ] HTTP Streaming 
+- [ ] Fetch Streaming
+- [ ] WebRTC
+- [ ] [[Polling vs WebSocket]]
+- [ ] [[Design System Protocols]]
+- [ ] [[API]]
+- [ ] [[API Protocol Decision Framework]]

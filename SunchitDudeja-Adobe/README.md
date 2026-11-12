@@ -1,0 +1,168 @@
+# System Design Interview Preparation Series
+### By Sunchit Dudeja
+
+---
+
+## 🚀 Welcome!
+
+Every system that has ever gone down in production went down for a reason that made perfect sense on paper. A counter that couldn't know about a second database. A health check that couldn't tell "slow" from "dead." A cache that couldn't tell "empty" from "gone." **The gap between a design that compiles and a design that survives contact with real traffic is where architects actually earn their title** — and that gap is what this series is built to close.
+
+This is not a syllabus of definitions. It started as a **50-day plan** and has since outgrown its own name, because production doesn't stop generating lessons on day 50 — it keeps generating them for as long as the systems stay running. What you'll find here instead is a growing field manual: real incidents, the wrong assumption that caused each one, and the mental model an architect reaches for so it doesn't happen twice. Bloom filters that guard a signup form. A liveness probe that quietly restarted a healthy cluster into an outage. A Snowflake ID scheme born because two shards both handed out `id = 1`.
+
+Whether you're walking into your first system design interview or you're the one now on the hook when the pager goes off at 3 AM, the goal is the same: **stop thinking like someone who makes the code work, and start thinking like someone who makes the system last.**
+
+---
+
+## 📚 Series Content
+
+| Day | Title | Link |
+|-----|-------|------|
+| 1 | Why System Design Matters | [Read](Day01_Why_System_Design_Matters.md) |
+| 2 | Key Characteristics of Great Systems (SCALED) | [Read](./Day2_Key_Characteristics_SCALED.md) |
+| 3 | Functional vs Non-Functional Requirements | [Read](./Day3_Functional_Vs_Nonfunctional_Requirements.md) |
+| 4 | Client-Server Architecture | [Read](./Day4_Client_Server_Architecture.md) |
+| 5 | Capacity Estimation: Think Like an Architect | [Read](./Day5_Capacity_Estimation.md) |
+| 6 | Design for Failure: The Architect's Mindset | [Read](./Day6_Design_For_Failure.md) |
+| 7 | Databases: Developer vs Architect Thinking | [Read](./Day7_Databases_Developer_vs_Architect.md) |
+| 8 | Load Balancing: Traffic Orchestration | [Read](./Day8_Load_Balancing.md) |
+| 9 | Bloom Filters: Preventing Cache Penetration | [Read](./Day9_Bloom_Filters_Cache_Penetration.md) |
+| 10 | Request Coalescing: When 50,000 Became 1 | [Read](./Day10_Request_Coalescing.md) |
+| 11 | Kubernetes Scaling: The Architect's Orchestra | [Read](./Day11_Kubernetes_Scaling.md) |
+| 12 | Factory Design Pattern: Zomato Order System | [Read](./Day12_Factory_Design_Pattern.md) |
+| 13 | Circuit Breaker: When PhonePe Saved 50K Payments | [Read](./Day13_Circuit_Breaker_Pattern.md) |
+| 14 | Spring Boot Performance: The Architect's 6-Step Framework | [Read](./Day14_SpringBoot_Performance.md) |
+| 15 | Redis Single-Threaded Magic: Why It's Faster Than Your Multi-Threaded Database | [Read](./Day15_Redis_Single_Threaded_Magic.md) |
+| 16 | Redis Sorted Sets: Building Real-Time Leaderboards at Scale | [Read](./Day16_Redis_Sorted_Sets_Leaderboard.md) |
+| 17 | Instagram's 7-Layer Architecture: How 1M Likes Don't Break the Internet | [Read](./Day17_Instagram_Like_System_Architecture.md) |
+| 18 | Redis Configuration Nightmare: Lettuce vs Jedis - The Default Timeout Trap | [Read](./Day18_Redis_Timeout_Configuration.md) |
+| 19 | How Google Checks Email Uniqueness in Milliseconds: Bloom Filters | [Read](./Day19_Google_Email_Uniqueness_BloomFilter.md) |
+| 20 | Block File Uploads: How Dropbox & Netflix Upload 5TB Files to S3 | [Read](./Day20_S3_Multipart_Upload_Architecture.md) |
+| 21 | Optimistic vs Pessimistic Locking: Amazon vs BookMyShow | [Read](./Day21_Optimistic_vs_Pessimistic_Locking.md) |
+| 22 | The 7 Layers of Every High-Level Design: A Complete Architecture Blueprint | [Read](./Day22_7_Layers_HLD_Architecture.md) |
+| 23 | Database Selection for System Design: The Architect's Complete Guide | [Read](./Day23_Database_Selection_System_Design.md) |
+| 24 | API Protocol Decision Framework: gRPC, GraphQL, REST & WebSocket | [Read](./Day24_API_Protocol_Decision_Framework.md) |
+| 25 | Deployment Strategies Decoded: The Architect's Complete Guide | [Read](./Day25_Deployment_Strategies.md) |
+| 26 | Docker Production Commands: The Architect's Essential Guide | [Read](./Day26_Docker_Production_Commands.md) |
+| 27 | Two-Phase Commit (2PC): The Distributed Transaction Protocol | [Read](./Day27_Two_Phase_Commit.md) |
+| 28 | Consistent Hashing: The Resharding Strategy That Powers Amazon, Discord & Netflix | [Read](./Day28_Consistent_Hashing_Resharding.md) |
+| 29 | Forward Proxy vs Reverse Proxy: The Gatekeepers of Modern Internet Architecture | [Read](./Day29_Forward_Reverse_Proxy.md) |
+| 30 | Database Replication: The Power That Transforms Fragile Systems into Resilient Architectures | [Read](./Day30_Database_Replication_AWS_Architecture.md) |
+| 31 | Kafka Schema Evolution: The "New Topic" Strategy for Breaking Changes | [Read](./Day31_Kafka_Schema_Evolution_New_Topic_Strategy.md) |
+| 32 | Scheduled Locks: Distributed Lock for Cron Jobs — Step-by-Step Workflow | [Read](./Day32_Scheduled_Locks_Distributed_Lock_Workflow.md) |
+| 33 | Distributed Tracing IDs: The Complete Guide | [Read](./Day33_Distributed_Tracing_IDs_Complete_Guide.md) |
+| 34 | Kafka Partition Assignment & Rebalancing: The Complete Guide | [Read](./Day34_Kafka_Partition_Assignment_And_Rebalancing.md) |
+| 35 | What Can Go Wrong: Distributed Systems & How to Survive Them | [Read](./Day35_Distributed_Systems_Failure_Modes_HLD.md) |
+| 36 | RabbitMQ vs Kafka: The Architect's Decision Guide | [Read](./Day36_RabbitMQ_vs_Kafka_Architects_Decision_Guide.md) |
+| 37 | Optimizing Cache for High Hit Rate in Distributed Systems | [Read](./Day37_Optimizing_Cache_High_Hit_Rate_Distributed_Systems.md) |
+| 38 | Primary Key Strategies: SQL vs NoSQL | [Read](./Day38_Primary_Key_Strategies_SQL_vs_NoSQL.md) |
+| 39 | Outbox Pattern: Reliable Messaging Without Distributed Transactions | [Read](./Day39_Outbox_Pattern_Reliable_Messaging.md) |
+| 40 | Modular Monolith Architecture: The Best of Both Worlds | [Read](./Day40_Modular_Monolith_Architecture.md) |
+| 41 | ACID vs BASE: Instagram, CAP (AP), and BASE in the Real App | [Read](./Day41_ACID_vs_BASE_Instagram_CAP.md) |
+| 42 | Blue-Green Deployment: Achieving Zero Downtime | [Read](./Day42_Blue_Green_Deployment_Zero_Downtime.md) |
+| 43 | Bloom Filter: Instagram Username Availability (No False Negatives) | [Read](./Day43_Bloom_Filter_Instagram_Username_Availability.md) |
+| 44 | Capacity Estimation for Black Friday: How Amazon Prepares for the Madness | [Read](./Day44_Capacity_Estimation_Black_Friday_Amazon.md) |
+| 45 | Why ACID Breaks in Microservices & How the Saga Pattern Fixes It | [Read](./Day45_Why_ACID_Breaks_Microservices_Saga_Pattern.md) |
+| 46 | Kafka Message Ordering: What Juniors Get Wrong & Architects Know | [Read](./Day46_Kafka_Message_Ordering_Partitions_Architects_Know.md) |
+| 47 | Database Connection Pools: The Biggest Blunder in Distributed Systems | [Read](./Day47_Database_Connection_Pool_Biggest_Blunder.md) |
+| 48 | The Idempotency Key That Lied: Two-Phase PENDING/COMPLETED Pattern | [Read](./Day48_Idempotency_The_Key_That_Lied.md) |
+| 49 | The Kafka OOM Crash That Charged 1000 Customers Twice | [Read](./Day49_Kafka_OOM_Crash_Duplicate_Charge_Idempotency.md) |
+| 50 | One Request. A Thousand Logs. Zero Answers. — Distributed Tracing | [Read](./Day50_Microservice_Debugging_Distributed_Tracing.md) |
+| 51 | The Day Netflix Broke Production on Purpose — Chaos Engineering | [Read](./Day51_Chaos_Engineering_Netflix_Chaos_Monkey.md) |
+| 52 | The Day Netflix Killed an Entire AWS Region — Chaos Kong | [Read](./Day52_Chaos_Kong_Region_Failure_Netflix.md) |
+| 53 | The Uber Retry Storm That Almost Broke Surge Pricing | [Read](./Day53_Uber_Retry_Storm_Exponential_Backoff_Circuit_Breaker.md) |
+| 54 | Rendezvous Hashing: The Elegant Cousin of Consistent Hashing (HRW) | [Read](./Day54_Rendezvous_Hashing_Highest_Random_Weight.md) |
+| 55 | Real-Time Notifications with Mark-as-Read: Broadcast the Result, Not the Action | [Read](./Day55_RealTime_Notifications_Mark_As_Read.md) |
+| 56 | The 42 KB Upload That Detonates Into 4.5 Petabytes: Decompression Bombs and the Architect's Defense Playbook | [Read](./Day56_Zip_Bomb_Decompression_Amplification_Defense.md) |
+| 57 | The Rate Limiter That Let 2× Traffic Through: Why Fixed Window Counters Lie at the Boundary | [Read](./Day57_Rate_Limiting_Algorithms_Fixed_Window_Boundary_Bug.md) |
+| 58 | Beyond 42.zip: The Algorithmic Complexity Attack Family — Billion Laughs, ReDoS, GraphQL Bombs, and the One Defense Pattern That Beats All of Them | [Read](./Day58_Algorithmic_Complexity_Attacks_Family_Universal_Defense.md) |
+| 59 | Rolling, Blue-Green, Canary, or Feature Flags? The Deployment Strategy Decision Tree Every Architect Uses | [Read](./Day59_Deployment_Strategies_Decision_Tree.md) |
+| 60 | 10 TB of Logs a Day, 100k Events per Second: Centralized Logging Server HLD | [Read](./Day60_Centralized_Logging_Server_HLD.md) |
+| 61 | Hot Standby vs Cold Standby — and Why "Cold Start" Is the Same Trade-off in Failover, Serverless, Recommendations, and Databases | [Read](./Day61_Hot_vs_Cold_Standby_Failover_Cold_Start.md) |
+| 62 | Design a Distributed Job Scheduler — RabbitMQ Spine, Worker Pool, and the At-Least-Once Discipline | [Read](./Day62_Distributed_Job_Scheduler_RabbitMQ.md) |
+| 63 | UPI Lite's Offline Payment Core — Two Phones Tap, Money Moves, No Internet (TEE, Token Chains & Double-Spend) | [Read](./Day63_UPI_Lite_Offline_Payments_TEE_Double_Spend.md) |
+| 64 | Database Sharding: Range, Hash, Directory & the Resharding Nightmare — Choosing the Shard Key That Makes or Breaks You | [Read](./Day64_Database_Sharding_Strategies.md) |
+| 65 | LSM Trees vs B-Trees: Why Cassandra Eats Writes for Breakfast and Postgres Doesn't | [Read](./Day65_LSM_Trees_vs_B_Trees.md) |
+| 66 | Access vs Refresh vs ID Token: The Three Tokens Every Architect Confuses (OAuth 2.0 & OIDC) | [Read](./Day66_OAuth_OIDC_Access_Refresh_ID_Tokens.md) |
+| 67 | Build S3 Multipart Upload End-to-End — Java Spring Boot + React Tutorial with Architect's Production Notes | [Read](./Day67_S3_Multipart_Upload_Java_React_Tutorial.md) |
+| 68 | Sharding vs Partitioning: The Architect's Definitive Guide — Partition for Maintenance, Shard for Scale | [Read](./Day68_Sharding_vs_Partitioning_Architects_Definitive_Guide.md) |
+| 69 | Single-Table Design in DynamoDB: Anti‑Pattern or Best Practice? — An Architect's Guide to NoSQL Schema Design | [Read](./Day69_DynamoDB_Single_Table_Design_Anti_Pattern_or_Best_Practice.md) |
+| 70 | The Sequence Breakdown: What Each Layer Does — 6 Logical Routing Layers vs 4 Physical Network Hops (CDN, Gateway, Sidecar, DB Proxy) | [Read](./Day70_Load_Balancing_Layers_Sequence_Breakdown.md) |
+| 71 | Hystrix Internals: Circuit Breaker State Machine & Hysteresis — Rolling Metrics, Bulkheads, and the Asymmetric Thresholds That Stop Flapping | [Read](./Day71_Hystrix_Internals_Circuit_Breaker_Hysteresis.md) |
+| 72 | The Resilience Stack: Layered Defense — Rate Limiter, Circuit Breaker, Bulkhead, Timeout, Retry & Fallback (Numbered ①–⑥) | [Read](./Day72_Resilience_Stack_Layered_Defense.md) |
+| 73 | The Missing Middle: HTTP QUERY Method (RFC 10008) — Safe, Cacheable Search with Request Bodies | [Read](./Day73_HTTP_QUERY_Method_RFC10008_Search_Dilemma.md) |
+| 74 | Gmail Sign-in Mechanism: Optimistic Pre-Loading — How Google Loads Your Inbox in ~400ms | [Read](./Day74_Gmail_Sign_In_Optimistic_PreLoading.md) |
+| 75 | SQL Order of Execution: Why JOIN Filter Placement (WHERE vs ON) Changes Speed and Semantics | [Read](./Day75_SQL_Order_of_Execution_JOIN_Filtering.md) |
+| 76 | Scale DB in Distributed Systems: Unique ID Strategies — Auto-Increment to Snowflake | [Read](./Day76_Scale_DB_Distributed_Systems_Unique_IDs.md) |
+| 77 | Database Migration Strategy: From On-Premise to AWS — CDC, Cutover & Zero Downtime | [Read](./Day77_Database_Migration_OnPrem_To_AWS.md) |
+| 78 | The Outbox Pattern: Solving the Dual-Write Problem — Order/Inventory, Kafka Relay & Idempotency | [Read](./Day78_Outbox_Pattern_Dual_Write_Problem.md) |
+| 79 | Production Database Corruption: The Architect's Incident Response Playbook | [Read](./Day79_Production_Database_Corruption_Incident_Response.md) |
+| 80 | Readiness vs Liveness Probes: The Health Check That Killed a Healthy Cluster | [Read](./Day80_Kubernetes_Readiness_Liveness_Probes.md) |
+| 81 | The Dead Letter Queue: How to Stop One Poison Message From Taking Down Your Pipeline | [Read](./Day81_Dead_Letter_Queue_Message_Processing_Flow.md) |
+| 82 | The Lost ACK: Why Kafka Producer Retries Create Duplicates, and How Idempotence Actually Stops Them | [Read](./Day82_Kafka_Producer_Idempotence_Lost_ACK_Duplicates.md) |
+| 83 | System Design Framework: A Repeatable Way to Attack Any Design Problem | [Read](./Day83_System_Design_Framework.md) · [Diagram](./Day83_System_Design_Framework_Notebook.png) |
+| 84 | The Booking System Race Condition: How Millions of Concurrent Requests, Redis Atomicity, and Queues Prevent Double Booking | [Read](./Day84_Booking_System_Concurrency_Redis_Queues_Double_Booking.md) · [Architecture](./Day84_Booking_System_Architecture.png) · [Race Condition](./Day84_Race_Condition_Solution.png) |
+| 85 | AWS Storage Explained Simply: S3 vs EFS vs EBS (A Senior Architect's Guide for Young Developers) | [Read](./Day85_AWS_Storage_Explained_Simply_S3_EFS_EBS.md) |
+| 86 | Redis as a System Design Building Block: A Senior Architect's Perspective | [Read](./Day86_Redis_As_A_System_Design_Building_Block.md) |
+| 87 | Semantic Versioning in System Design: Evolving Contracts Without Breaking Consumers | [Read](./Day87_Semantic_Versioning_System_Design.md) |
+| 88 | Multi-Region Rate Limiting: Closing the VPN Bypass Gap with Home-Region Enforcement | [Read](./Day88_Global_Rate_Limiting_Home_Region_VPN_Bypass.md) |
+| 89 | Architect Database Decision Tree: Choosing the Right Database Without Guesswork | [Read](./Day89_Architect_Database_Decision_Tree.md) |
+| 90 | Architect Caching Decision Tree: The 3 Questions Every Developer Must Learn | [Read](./Day90_Architect_Caching_Decision_Tree_Three_Questions.md) |
+| 91 | Database Sharding Decision Tree for Scale and Performance | [Read](./Day91_Database_Sharding_Decision_Tree_For_Scale_And_Performance.md) |
+| 92 | Architect’s Messaging System Decision Tree: Kafka vs RabbitMQ vs SQS vs SNS | [Read](./Day92_Architect_Messaging_System_Decision_Tree.md) |
+| 93 | Architect API Design Decision Tree: REST JSON vs REST Protobuf vs GraphQL vs gRPC vs Streaming | [Read](./Day93_Architect_API_Design_Decision_Tree.md) |
+| 94 | Architecture Decision Tree: Monolith vs Modular Monolith vs Microservices | [Read](./Day94_Architecture_Decision_Tree_Monolith_Modular_Monolith_Microservices.md) |
+| 95 | Caching Strategy and Invalidation Decision Tree: TTL vs Write Through vs Write Behind vs Event Driven | [Read](./Day95_Caching_Strategy_And_Invalidation_Decision_Tree.md) |
+| 96 | The Seven Principles of Scalable Microservice Architecture | [Read](./Day96_Seven_Principles_of_Scalable_Microservice_Architecture.md) |
+| 97 | Disaster Recovery Workflow for Regional Failover | [Read](./Day97_Disaster_Recovery_Workflow_Regional_Failover_Playbook.md) |
+| 98 | Single Region to Multi Region Cache Migration Without Downtime | [Read](./Day98_Single_Region_To_Multi_Region_Cache_Migration.md) |
+| 99 | Launch Scaling Strategy from Zero to Millions | [Read](./Day99_Launch_Scaling_Strategy_Zero_To_Millions.md) |
+| 100 | Thank You and Closing Note | [Read](./Day100_Thank_You_Closing_System_Design_Interview_Preparation_Series.md) |
+
+---
+
+## 🎯 What You'll Learn
+
+- **Foundational Concepts:** Client-Server Architecture, APIs, Databases, Caching
+- **Distributed Systems:** CAP Theorem, Consistency, Availability, Partitioning
+- **Scalability Patterns:** Load Balancing, Sharding, Replication
+- **Operational Resilience:** Health Checks, Circuit Breakers, Chaos Engineering, Graceful Degradation
+- **Real Interview Problems:** Design WhatsApp, Netflix, Uber, Amazon, and more
+
+---
+
+## 📬 Connect with Me
+
+If this series helps you ace an interview, ship a better design, or just survive a 3 AM on-call — I'd love to hear about it. Follow along, share your progress, and tag me when you land that offer.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sunchit%20Dudeja-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunchitdudeja/)
+[![YouTube](https://img.shields.io/badge/YouTube-CodeWithSunchitDudeja-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@CodeWithSunchitDudeja)
+[![Instagram](https://img.shields.io/badge/Instagram-%40sunchitdudeja-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sunchitdudeja/)
+[![GitHub](https://img.shields.io/badge/GitHub-Sunchit-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sunchit)
+
+| Platform | Handle | Why follow |
+|----------|--------|------------|
+| 💼 **LinkedIn** | [Sunchit Dudeja](https://www.linkedin.com/in/sunchitdudeja/) | Long-form posts, career insights, and series announcements |
+| 📺 **YouTube** | [@CodeWithSunchitDudeja](https://www.youtube.com/@CodeWithSunchitDudeja) | Video walkthroughs of every post in this series |
+| 📸 **Instagram** | [@sunchitdudeja](https://www.instagram.com/sunchitdudeja/) | Daily system design snippets and behind-the-scenes |
+| 🐙 **GitHub** | [@Sunchit](https://github.com/Sunchit) | All the source code, diagrams, and companion series |
+
+---
+
+## ✍️ About the Author
+
+**Sunchit Dudeja** — Engineering Leader · System Design Educator
+
+Building this series to give every developer the foundation that took most architects years of painful incidents to develop.
+
+Also writing the companion series **[Learn to Think Like an Architect](https://github.com/Sunchit/LearnToThinkLikeAnArchitect)** — mental models and real-world architectural war stories.
+
+---
+
+*Happy Learning!* 🎉
+
+> *"A developer makes the code work. An architect makes the system last."*
+
+
+
+---
+https://github.com/Sunchit/LearnToThinkLikeAnArchitect
