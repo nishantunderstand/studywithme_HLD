@@ -3,18 +3,23 @@
 - [ ] gRPC
 - [ ] WebSocket
 - [ ] [[RESTAPI vs GraphQL vs gRPC]]
-- [ ] [[REST  vs gRPC vs WebSocket]]
-- [ ] REST, GraphQL, gRPC, WebSocket, Webhook, or SSE.
+- [ ] [[REST vs gRPC vs WebSocket]]
+- [ ] REST
+- [ ] GraphQL
+- [ ] gRPC
+- [ ] WebSocket
+- [ ] Webhook
+- [ ] SSE.
 - [ ] [[API LifeCycle]]
 - [ ] [[Day24_API_Protocol_Decision_Framework]]
 - [ ] [[Day93_Architect_API_Design_Decision_Tree]]
 - [ ] [[Protocol]]
 - [ ] [[API Decision Framework]]
-[[Debouncing vs Throttling]]
+- [ ] [[Debouncing vs Throttling]]
+- [ ] [[API Slow ]]
 
 
 
-SunchitDudeja Day 93
 
 
 
