@@ -15,3 +15,24 @@ Let’s break down real-time communication patterns using practical examples!
 Understanding when to use each is essential for backend development and system design interviews.
 
 ![[API Protocol Decide.png]]
+
+
+
+---
+
+Polling vs LongPolling vs SSE (Server-Sent Events)
+Polling : Buring Bandwidth , Fixed Intervals
+LongPolling 
+SSE : Light Weight
+Live cricket scores, stock tickers, and notification systems 
+Communication : One-Directional or Bi-Directional
+https://www.instagram.com/p/DYPRi6auPKg/
+
+
+
+HTTP vs WebSocket
+HTTP
+Polling 
+WebSocket : 2 Ways Communincation 
+Live Location, Google Docs
+https://www.instagram.com/p/DYR2ZJRJsow/

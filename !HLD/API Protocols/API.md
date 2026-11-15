@@ -1,3 +1,10 @@
+[[JWT Authorization Model]]
+
+
+
+
+---
+
 - [ ] RESTAPI
 - [ ] GraphQL 
 - [ ] gRPC
@@ -17,7 +24,7 @@
 - [ ] [[API Decision Framework]]
 - [ ] [[Debouncing vs Throttling]]
 - [ ] [[API Slow ]]
-
+- [ ] [[API Versioning]]
 
 
 

@@ -1,6 +1,7 @@
 Back of Envelope Math
 Back of Envelope Calculation
 Capacity Planning
+CapacityEstimation
 
 
 [[Alex Xu]]
@@ -149,3 +150,21 @@ https://www.codementor.io/@robinpalotai/back-of-the-envelope-calculation-for-sys
 ![[Back Of the Envelope 3.png]]
 
 ![[Back Of the Envelope 4.png]]
+
+
+
+---
+
+Why CapacityEstimation 
+https://www.instagram.com/p/DaCVtu2Bmhv/
+
+
+
+5 Pillars for CapacityEstimation
+Traffic
+Storage
+Bandwidth —Ingress and Egress
+Memory — 80-20 rule: 
+Peak Load 
+https://www.instagram.com/p/DaHttXXBDZV/
+

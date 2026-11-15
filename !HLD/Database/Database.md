@@ -1,80 +1,93 @@
-Database Introduction
-Why we need Database 
+- [ ] [[Database Index]]
 
-
-
-----
-
-- [ ] Consistency
-- [ ] Strong Consistency
-- [ ] Eventual Consistency
-- [ ] [[CQRS]]
-- [ ] [[Database Indexing Ignored]]
-- [ ] [[Database Query Performance]]
-- [ ] [[How to Scale your DB to 100,000 QPS]]
-- [ ] [[Database Scaling Shards with Consistent Hashing]]
-- [ ] [[Database Migrations]]
-- [ ] [[CSV vs JSON vs Parquet ]]
-- [ ] [[Warehouse vs Lake vs Lakehouse]]|
-- [ ] [[ETL vs ELT]]
-- [ ] [[Database Locking]]
-- [ ] [[Gossip Protocol]]
-- [ ] [[DB Crash Recover]]
-- [ ] [[Chaos Monkey]]
 - [ ] Chaos Engineering 
 - [ ] Chaos Kong 
-- [ ] [[Redundancy and Replication]]
-- [ ] [[Master-Slave vs Multi-Master]]
-- [ ] [[Database Migration 1M Record Create New Column No Downtime]]
+- [ ] Clustering
+- [ ] Consistency
+- [ ] Eventual Consistency
+- [ ] Hot Partition
+- [ ] Split Brain
+- [ ] Strong Consistency
+- [ ] Transactions & ACID  
+- [ ] [[CQRS]]
+- [ ] [[CQRS]]
+- [ ] [[CSV vs JSON vs Parquet ]]
+- [ ] [[Chaos Monkey]]
 - [ ] [[Connection Pooling]]
-- [ ] [[Database Sharding vs Replication]]
-- [ ] [[Database Scaling]]
+- [ ] [[Connection Pooling]]
+- [ ] [[DB Crash Recover]]
+- [ ] [[Database CDC]]
+- [ ] [[Database Decide ]]
+- [ ] [[Database Decision Tree]]
+- [ ] [[Database Decision Tree]] 
+- [ ] [[Database Indexing Ignored]]
+- [ ] [[Database Indexing Types]]
+- [ ] [[Database Indexing Types]]
+- [ ] [[Database Indexing]]
+- [ ] [[Database Indexing]]
+- [ ] [[Database Locking]]
+- [ ] [[Database Locking]]
+- [ ] [[Database Migration 1M Record Create New Column No Downtime]]
+- [ ] [[Database Migrations]]
+- [ ] [[Database Migrations]]
+- [ ] [[Database Partitioning, Replication, Sharding And Clustering]]
+- [ ] [[Database Partitioning, Replication, Sharding And Clustering]]
+- [ ] [[Database Partitioning]]
+- [ ] [[Database Partitioning]]
+- [ ] [[Database Query Performance]]
+- [ ] [[Database Query Performance]]
+- [ ] [[Database Read Heavy System DB Selection]]
+- [ ] [[Database Replication Lag]]
+- [ ] [[Database Replication]]
 - [ ] [[Database Scale to 800M Without Sharding Your Database]]
+- [ ] [[Database Scaling Shards with Consistent Hashing]]
+- [ ] [[Database Scaling]]
+- [ ] [[Database Sharding Types]]
+- [ ] [[Database Sharding vs Replication]]
+- [ ] [[Database Sharding vs Replication]]
+- [ ] [[Database Sharding]]
 - [ ] [[Database Suddenly Slow]]
 - [ ] [[Database Wrtite Heavy System DB Selection]]
-- [ ] [[Database Read Heavy System DB Selection]]
-- [ ] [[Database Decide ]]
-- [ ] Transactions & ACID  
-- [x] Normalization (1NF, 2NF, 3NF, BCNF)  
-- [x] Indexing  
-- [x] Partitioning  
-- [x] Sharding  
-- [x] [[CAP]] Theorem  
-- [x] Optimistic vs Pessimistic Locking  
-- [x] CQRS  
-- [x] Query Optimization  
-- [x] Connection Pooling  
-- [x] Disk vs Memory Access  
-- [x] MVCC  
-- [x] Database Migrations  
-- [x] [[OLTP vs OLAP]]  
-- [x] SQL vs NoSQL
-- [x] [[ACID vs BASE]]
-- [x] [[RDBMS]]
-- [x] [[Normalization]]
----
-- [x] [[Database Sharding]]
-- [x] [[Database Sharding Types]]
-- [ ] [[Database Replication]]
-- [ ] [[Database Replication Lag]]
-- [ ] [[Database Decision Tree]]
-- [ ] [[Database CDC]]
-- [ ] [[Database Indexing]]
-- [ ] [[NoSQL Types]]
-- [ ] [[Database Indexing Types]]
-- [ ] [[Database Decision Tree]] 
-- [ ] [[Day89_Architect_Database_Decision_Tree]]
 - [ ] [[Day23_Database_Selection_System_Design]]
 - [ ] [[Day64_Database_Sharding_Strategies]]
 - [ ] [[Day68_Sharding_vs_Partitioning_Architects_Definitive_Guide]]
-- [ ] [[Database Partitioning]]
-- [ ] Hot Partition
-- [ ] Split Brain
-- [ ] Replica Lag
-- [ ] Database Partitioning
-- [ ] Data Replication
-- [ ] Sharding
-- [ ] Clustering
+- [ ] [[Day89_Architect_Database_Decision_Tree]]
+- [ ] [[ETL vs ELT]]
+- [ ] [[Gossip Protocol]]
+- [ ] [[How to Scale your DB to 100,000 QPS]]
 - [ ] [[Join]]
----
-- [ ] [[Database Partitioning, Replication, Sharding And Clustering]]
+- [ ] [[MVCC]]
+- [ ] [[Master-Slave vs Multi-Master]]
+- [ ] [[NoSQL Types]]
+- [ ] [[Redundancy and Replication]]
+- [ ] [[Sharding]]
+- [ ] [[Warehouse vs Lake vs Lakehouse]]|
+- [x] Data Replication
+- [x] Database Migrations  
+- [x] Database Partitioning
+- [x] Disk vs Memory Access  
+- [x] Indexing  
+- [x] Normalization (1NF, 2NF, 3NF, BCNF)  
+- [x] Optimistic vs Pessimistic Locking  
+- [x] Partitioning  
+- [x] Query Optimization  
+- [x] Replica Lag
+- [x] SQL vs NoSQL
+- [x] Sharding
+- [x] Sharding  
+- [x] [[ACID vs BASE]]
+- [x] [[CAP Theorem]]
+- [x] [[Database Replication Lag]]
+- [x] [[Database Replication]]
+- [x] [[Database Sharding Types]]
+- [x] [[Database Sharding]]
+- [x] [[Normalization]]
+- [x] [[OLTP vs OLAP]]  
+- [x] [[RDBMS]]
+- [ ] [[Database B-Tree Indexing Working]]
+- [ ] [[Database Scale to 800M Without Sharding Your Database]]
+- [ ] [[Database Type]]
+- [ ] [[Normalization vs Denormalization]]
+- [ ] [[Scalability vs Availability vs Reliability]]
+
+----

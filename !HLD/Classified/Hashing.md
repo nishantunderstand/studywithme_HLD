@@ -7,3 +7,7 @@ Types
 
 
 
+
+
+Consistent Hashing, Virtual Nodes
+https://www.instagram.com/p/DbubdnWh8Je/

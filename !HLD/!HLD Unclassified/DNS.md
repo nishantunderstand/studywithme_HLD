@@ -54,3 +54,13 @@ In simple terms:
 Domain Name → DNS Resolver → Root → TLD → Authoritative DNS → IP Address  
   
 Think of DNS as the phonebook of the internet. It helps translate names into addresses that computers can understand.
+
+
+
+---
+
+DNS 
+https://www.instagram.com/p/DYNLVt2hASh/
+DNS translates domain names into IP addresses. 
+Like a PhoneBook
+DNS Spoofing attacks 

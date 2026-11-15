@@ -54,7 +54,7 @@ For Hot and Popular Data
 ---
 
 
-- [ ] [[Database]]
+- [ ] [[!HLD/Database/Database]]
 - [ ] [[Redis]]
 
 Transalation Lookaside Buffer

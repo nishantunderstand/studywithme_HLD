@@ -1,5 +1,5 @@
 [[System Design Distributed System]]
-[[Scaling Horizontal Vertical]]
+[[Database Scaling Horizontal Vertical]]
 [[Capacity Planning and Estimation]]
 [[HTTP]]
 [[TCP]]

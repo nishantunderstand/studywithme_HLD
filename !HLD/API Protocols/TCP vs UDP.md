@@ -12,3 +12,16 @@ TCP vs. UDP : 7 Differences You Should Know
 5. Congestion control vs. no congestion control
 6. Reliable vs. lossy
 7. Flow control vs. no flow control
+
+
+
+---
+
+TCP vs UDP
+OSI Model
+3 Way Handshake + ACK
+TCP : Accuracy Over Speed , Reliable
+UDP : Speed Over Accuracy , Fast
+Connection Oriented vs Connectionless
+https://www.instagram.com/p/DYZkxNLT5oC/
+

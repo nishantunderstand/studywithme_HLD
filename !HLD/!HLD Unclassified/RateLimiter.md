@@ -1,4 +1,8 @@
 
+
+
+
+
 [[Redis Rate Limiter Distributed]]
 
 [[Microservice ResilenceLibrary RateLimiter TimeLimiter Retry Bulkhead Isolation]]
@@ -65,3 +69,17 @@ Rate Limiting vs Bloom Filter  ?
 
 
 [Rate limiter and its algorithms with illustrations | by Jinia Konar | The Groww Engineering Blog](https://tech.groww.in/rate-limiter-and-its-algorithms-with-illustrations-564455162935)
+
+
+
+---
+
+RateLimiting
+429 vs 503
+Redis, API Gateway
+Algorithm
+https://www.instagram.com/p/DaVAlW3z5il/
+Algorithm
+Fixed Window, Sliding Window, Token Bucket 
+
+

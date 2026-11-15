@@ -1,3 +1,4 @@
+
 https://www.instagram.com/p/Dd52PoOMip1/
 
 
@@ -65,3 +66,12 @@ https://www.instagram.com/p/Da5dMj-Cs-P/
 
 
 Latency vs Throughput vs Bandwidth vs Jitter
+
+
+
+
+---
+
+Latency vs Throughput
+https://www.instagram.com/p/DYmK29jBAGV/
+
