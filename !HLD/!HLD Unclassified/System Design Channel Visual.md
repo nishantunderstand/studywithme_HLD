@@ -1,4 +1,4 @@
-[[Best]]
+[[!HLD/Classified/Best]]
 
 https://www.youtube.com/@ByteByteGo
 https://www.youtube.com/@SoftwareDeveloperDiaries
