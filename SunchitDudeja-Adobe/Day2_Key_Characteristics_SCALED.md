@@ -117,6 +117,7 @@ Here's what separates junior developers from senior architects:
 Every architectural decision involves choosing which superpowers to prioritize and which to sacrifice.
 
 ```
+
 ┌─────────────────────────────────────────────────────────┐
 │                   THE TRADE-OFF TRIANGLE                │
 │                                                         │

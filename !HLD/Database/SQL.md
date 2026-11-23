@@ -1,5 +1,10 @@
-MySQL 
-[[MySQL InnoDB]]
-[[Postgres Vs My-SQL]]
-[[MVCC]]
-[[Postgress]]
+- [ ] MySQL 
+- [ ] [[MySQL InnoDB]]
+- [ ] [[Postgres Vs MySQL]]
+- [ ] [[MVCC]]
+- [ ] [[PostgreSQL]]
+- [ ] RDBMS
+- [ ] ORDBMS
+- [ ] MVCC
+- [ ] OLTP vs OLAP
+- [ ] Dead Tuple

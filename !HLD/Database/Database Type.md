@@ -2,7 +2,6 @@
 https://www.instagram.com/p/DZXxPHHI8QC/
 
 
-
 Revise THESE Database Interview Topics!  
   
 The database you choose depends on 2 things:  

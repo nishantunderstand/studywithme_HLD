@@ -1,10 +1,20 @@
-- [ ] [[Database Excalidraw|Database Excalidraw]]
+- [x] [[Database Excalidraw|Database Excalidraw]]
 
-- [ ] [[!HLD/Database/Database]]
-- [ ] [[Database Introduction]]
+- [x] [[Database Introduction]]
+- [x] [[DBMS]] 
+- [x] [[RDBMS]]
+- [ ] [[SQL]]
+- [ ] MySQL
+- [ ] [[MySQL InnoDB]]
+- [ ] MySQL InnoDB Buffer
+- [ ] [[PostgreSQL]]
+- [ ] PostgreSQL VaccumCleaner-
+- [ ] [[Postgres Vs MySQL]]
+- [ ] [[MVCC]]
 
-- [ ] [[DBMS]] 
-- [ ] [[RDBMS]]
+
+
+
 
 - [ ] [[Database Type]]
 - [ ] SQL vs NoSQL
@@ -94,3 +104,5 @@
 - [ ] Chaos Engineering
 - [ ] [[Chaos Monkey]]
 - [ ] Chaos Kong
+
+

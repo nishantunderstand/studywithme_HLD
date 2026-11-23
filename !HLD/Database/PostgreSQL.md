@@ -1,11 +1,7 @@
 
 Auto Vaccum Cleaner 
 
-
-
-
 https://www.instagram.com/p/Dd7eg-avt0Y/
-
 
 Your Postgres table has 1M rows and is dragging 10M dead ones. That's why it's slow 👇  
   
@@ -16,13 +12,9 @@ Your Postgres table has 1M rows and is dragging 10M dead ones. That's why it's s
 5️⃣ One long-running or idle-in-transaction session holds back cleanup for the whole database  
 6️⃣ Fixes: lower autovacuum_vacuum_scale_factor on big tables, set idle_in_transaction_session_timeout, and watch n_dead_tup in pg_stat_user_tables  
 
-
-
 ---
 
 Postgress Delete 100M Rows Postgress Got Slower
-
-
 
 https://www.instagram.com/p/DeZSmqDjxel/
 
@@ -31,7 +23,7 @@ You delete 100 million old rows from a 500-million-row Postgres table. The comma
   
 Here's why. A DELETE never removes the row. It stamps it dead and leaves it in the 8KB page, because an older transaction might still be allowed to see it. Every scan still walks those pages. Every index still points at them. Your cache fills with corpses.  
   
-And autovacuum? By default it won't even start until one row in five is dead. On 500 million rows that's 100 million dead rows before cleanup begins. Even then, plain VACUUM only marks the space reusable inside the file — the docs are explicit that it does not return space to the operating system.  
+And autovacuum? By default it won't even start until **one row in five is dead**. On 500 million rows that's 100 million dead rows before cleanup begins. Even then, plain VACUUM only marks the space reusable inside the file — the docs are explicit that it does not return space to the operating system.  
   
 The real answer is a schema decision, not a query: partition by the column you'll delete by, then DROP the partition. That's a file unlink. Instant, no dead tuples, disk returned.  
   
@@ -47,9 +39,9 @@ The real answer is a schema decision, not a query: partition by the column you'l
 
 The rule: deleting by date → partition by date on day one. Scattered deletes → batch 10,000 at a time and drop autovacuum_vacuum_scale_factor to 0.01.
 
-Follow @codezup for one system-design answer a day.
-Comment GUIDE for the full write-up.
 
-Comment "GUIDE" and I'll send you the full written breakdown.
 
-#postgres #postgresql #database #vacuum #mvcc".
+---
+
+https://lnkd.in/p/gwitBRTG
+https://www.linkedin.com/posts/rohit-jain-343437187_notion-split-its-postgres-database-into-480-share-7528105491349098496-1LTm/

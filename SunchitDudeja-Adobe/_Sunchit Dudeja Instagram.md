@@ -1,6 +1,4 @@
 
-
-
 bloom-filter-instagram-username.excalidraw
 blue-green-deployment.excalidraw
 consistent-hashing-explained.excalidraw
